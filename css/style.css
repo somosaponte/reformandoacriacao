@@ -1893,3 +1893,76 @@ h1.header__header {
         justify-content: center;
     }
 }
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    background: #272727;
+}
+
+.footer__content {
+    text-align: center;
+    color: #d2d2d2;
+    padding: 70px;
+}
+
+.footer__social-media {
+    padding-bottom: 20px;
+}
+
+a.footer__social-media-item:hover {
+    color: #F99D43;
+}
+
+a.footer__social-media-item:hover svg {
+    fill: #F99D43;
+}
+
+.footer__copy-right {
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+}
+
+.footer__author {
+    color: #34b1b0;
+}
+
+.footer__social-media-item {
+    color: #d2d2d2;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 0 12px;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1.4em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: 1.4em;
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: 1.4em;
+}
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer__social-media-item {
+        margin: 0 20px;
+        font-size: 2.2rem;
+    }
+}

@@ -61,33 +61,20 @@
 		type: 'image'
 	});
 
-	///////////////////////////
-	// Owl Carousel
-	// $('#about-slider').owlCarousel({
-	// 	items:1,
-	// 	loop:true,
-	// 	margin:15,
-	// 	nav: true,
-	// 	navText : ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-	// 	dots : true,
-	// 	autoplay : true,
-	// 	animateOut: 'fadeOut'
-	// });
-
-	// $('#testimonial-slider').owlCarousel({
-	// 	loop:true,
-	// 	margin:15,
-	// 	dots : true,
-	// 	nav: false,
-	// 	autoplay : true,
-	// 	responsive:{
-	// 		0: {
-	// 			items:1
-	// 		},
-	// 		992:{
-	// 			items:2
-	// 		}
-	// 	}
-	// });
-
+	$('#projects-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+	})
 })(jQuery);

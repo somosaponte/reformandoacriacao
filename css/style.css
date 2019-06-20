@@ -1879,9 +1879,11 @@ h1.header__header {
 
 /* Calendar */
 
-.number__image {
+img.number__image {
     display: block;
     margin: 0 auto;
+    height: 100px;
+    width: 100px !important;
 }
 
 @media only screen and (max-width: 767px) {
